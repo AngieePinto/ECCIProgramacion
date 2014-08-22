@@ -4,9 +4,17 @@
         <servlet-name>Servlet1</servlet-name>
         <servlet-class>Servlet1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Guardar</servlet-name>
+        <servlet-class>Guardar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet1</servlet-name>
         <url-pattern>/Servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Guardar</servlet-name>
+        <url-pattern>/Guardar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
